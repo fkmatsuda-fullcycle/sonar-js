@@ -1,0 +1,24 @@
+{
+  "name": "sonar",
+  "version": "0.0.1",
+  "description": "sonarcloud node integration",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fkmatsuda-fullcycle/sonar-js.git"
+  },
+  "author": "Fábio Kenji Matsuda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fkmatsuda-fullcycle/sonar-js/issues"
+  },
+  "homepage": "https://github.com/fkmatsuda-fullcycle/sonar-js#readme",
+  "dependencies": {
+    "@types/jest": "^27.4.1",
+    "jest": "^27.5.1",
+    "sonar-scanner": "^3.1.0"
+  }
+}
